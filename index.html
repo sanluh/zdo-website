@@ -4,27 +4,258 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>zdo — Your tasks and notes, together.</title>
-<meta name="description" content="Native macOS and iOS apps for projects, everyday lists, and Markdown notes. A little more order, a little more space to think.">
-<meta name="theme-color" content="#20314a">
+<meta name="description" content="A calm task manager with a Markdown notebook built in, native on Mac and iPhone. No new account, no login, no tracking. Optional sync uses your own iCloud.">
+<meta name="theme-color" content="#14263e">
 <link rel="canonical" href="https://sanluh.github.io/zdo-website/index.html">
 <link rel="alternate" hreflang="en" href="https://sanluh.github.io/zdo-website/index.html">
 <link rel="alternate" hreflang="fi" href="https://sanluh.github.io/zdo-website/index-fi.html">
 <link rel="alternate" hreflang="x-default" href="https://sanluh.github.io/zdo-website/index.html">
 <meta property="og:title" content="zdo — Your tasks and notes, together.">
-<meta property="og:description" content="Native macOS and iOS apps for projects, everyday lists, and Markdown notes. A little more order, a little more space to think.">
+<meta property="og:description" content="A calm task manager with a Markdown notebook built in, native on Mac and iPhone. No new account, no login, no tracking. Optional sync uses your own iCloud.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://sanluh.github.io/zdo-website/index.html">
 <meta property="og:image" content="https://sanluh.github.io/zdo-website/assets/app-icon.png">
 <link rel="icon" type="image/png" href="assets/app-icon.png">
 <link rel="stylesheet" href="styles.css">
 </head>
-<body class="home">
+<body>
 <a class="skip" href="#main">Skip to content</a>
-<div class="container">
-<header class="toolbar"><a class="brand" href="index.html"><img src="assets/app-icon.png" alt="" width="42" height="42">zdo</a><nav class="languages" aria-label="Language"><a href="index.html" lang="en" hreflang="en" aria-label="English" aria-current="page">EN</a><a href="index-fi.html" lang="fi" hreflang="fi" aria-label="Suomi">FI</a></nav></header>
-<main id="main"><section class="hero"><img src="assets/app-icon.png" alt="" width="120" height="120"><h1>Your tasks and notes, together.</h1><p>Native macOS and iOS apps for projects, everyday lists, and Markdown notes. A little more order, a little more space to think.</p><p class="platform">Native on Mac and iPhone. In English and Finnish.</p></section><section class="card story"><h2>From A to Z. Then zdo.</h2><p>I tried all kinds of to-do and note-taking apps, from A to Z. None quite brought together the things I wanted. So I built zdo: z + do. Option Z.</p><p>A task often needs more than a one-liner. It needs the thinking behind it: a brief, a plan, research, or a few notes about what happens next. That’s why you can attach Markdown documents to your tasks and keep the context right beside the work.</p><p>A simple list is great for groceries. Real projects need more structure. Boards help you see how work is moving, and subtasks let you break it into pieces you can actually do. Zdo brings that structure together with your notes. And for the groceries? There are disposable Quick lists, too.</p></section><section class="card"><h2>At home on Mac and iPhone</h2><p>Zdo has a native macOS desktop app and a native iOS app. Plan projects and write on your Mac, then keep your tasks and notes close on your iPhone. Optional iCloud sync keeps your workspace together across your devices.</p></section>
-<section class="card"><h2>A place for your day</h2><div class="features"><div class="feature"><span aria-hidden="true">✓</span><div><h3>Make room for what matters</h3><p>Organize tasks into projects, break them into subtasks, and choose a list, board, or calendar view.</p></div></div><div class="feature"><span aria-hidden="true">▤</span><div><h3>Keep your notes close</h3><p>Write in Markdown, add diagrams and attachments, and link notes to the projects and tasks they belong to.</p></div></div><div class="feature"><span aria-hidden="true">♪</span><div><h3>Speak your tasks and notes</h3><p>Use the built-in dictation on macOS and iOS to write in Zdo with your voice, in English or Finnish.</p></div></div><div class="feature"><span aria-hidden="true">◷</span><div><h3>Plan your day</h3><p>Capture tasks quickly, set dates and priorities, and use repeating tasks and reminders to stay on track.</p></div></div><div class="feature"><span aria-hidden="true">☷</span><div><h3>Disposable lists for the little things</h3><p>Groceries don’t need a project. Make a Quick list, check things off, and discard it when you’re done.</p></div></div><div class="feature"><span aria-hidden="true">⇄</span><div><h3>Take your work with you</h3><p>Keep your tasks and notes in sync across Mac and iPhone with iCloud. Work offline, export your notes, and keep backups.</p></div></div></div></section><section class="card"><h2>Your work stays yours</h2><p>Zdo stores your workspace on your device. There is no Zdo account to create, and no advertising or third-party analytics in the app.</p><div class="highlight"><p>iCloud sync is optional. If you turn it on, your workspace and attachments are stored in your private iCloud database.</p></div><a href="privacy.html">Read the privacy policy</a></section><section class="card"><h2>zdo Pro</h2><p>Editing features use an Apple-managed subscription. Available plans, local prices, and any eligible trial are shown in the app before purchase. Your existing work remains readable and exportable after your subscription ends.</p></section></main>
-<footer><nav class="links" aria-label="Site navigation"><a href="privacy.html">Privacy policy</a><a href="support.html">Support</a></nav><p>© 2026 zdo · <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms of use</a></p></footer>
-</div>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="topbar">
+      <a class="brand" href="index.html"><img src="assets/app-icon.png" alt="" width="38" height="38">zdo</a>
+      <nav class="topnav" aria-label="Site">
+        <a href="#features">Features</a>
+        <a href="#privacy">Privacy</a>
+        <a href="support.html">Support</a>
+        <span class="languages" role="group" aria-label="Language"><a href="index.html" lang="en" hreflang="en" aria-label="English" aria-current="page">EN</a><a href="index-fi.html" lang="fi" hreflang="fi" aria-label="Suomi">FI</a></span>
+      </nav>
+    </div>
+
+    <div class="hero-grid">
+      <div>
+        <h1>Your tasks deserve more than a checkbox.</h1>
+        <p class="lede">zdo is a calm task manager with a Markdown notebook built in. Projects, everyday lists, and the thinking behind them, together on Mac and iPhone. <em>A little more space to think.</em></p>
+        <ul class="promises" aria-label="Privacy promises">
+          <li><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3.5 8.5 3 3 6-7"/></svg>No new account</li>
+          <li><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3.5 8.5 3 3 6-7"/></svg>No login</li>
+          <li><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3.5 8.5 3 3 6-7"/></svg>No tracking</li>
+        </ul>
+        <p class="platforms">Native apps for Mac and iPhone, in English and Finnish.</p>
+      </div>
+
+      <div class="stage" aria-hidden="true">
+        <div class="note-card">
+          <div class="note-head"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 1.5h5l3 3v8H3z"/><path d="M8 1.5v3h3"/></svg>Cabin notes.md</div>
+          <h3>Why we’re going</h3>
+          <p>Two quiet days. No laptops, long walks, and one proper dinner by the lake.</p>
+          <ul>
+            <li>Leave by four on Friday</li>
+            <li>Ask Aino about the boat</li>
+            <li>Firewood is in the shed</li>
+          </ul>
+        </div>
+        <div class="task-card">
+          <div class="task-row"><span class="check"></span><span class="task-title">Plan the cabin weekend</span></div>
+          <div class="task-meta"><span>Fri</span><span class="tag">home</span><span class="doc-chip"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 1.5h5l3 3v8H3z"/></svg>Cabin notes</span></div>
+          <ul class="subtasks">
+            <li class="done"><span class="check"></span><span>Book the sauna</span></li>
+            <li class="done"><span class="check"></span><span>Check the ferry times</span></li>
+            <li><span class="check"></span><span>Pack the board games</span></li>
+          </ul>
+        </div>
+        <div class="capture"><kbd>⌘K</kbd><span class="typed">Buy firewood <span class="tok">tomorrow</span> <span class="tok">@home</span> <span class="tok">#Cabin</span></span></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="showcase wrap" aria-label="zdo on the Mac">
+    <div class="window" id="mac-window" data-layout="comfortable">
+      <img src="assets/mac-board.webp" width="1372" height="875" alt="The zdo Mac app showing a project called A thoughtful launch as a board with Ideas, In progress, and Ready columns. Each task card shows its date, tag, and a preview of its description.">
+      <img class="compact" src="assets/mac-compact.webp" width="1372" height="875" alt="" loading="lazy">
+    </div>
+    <div class="showcase-bar">
+      <p>A project on the Mac board. Every card shows the start of its story.</p>
+      <div class="segmented" role="group" aria-label="Layout density">
+        <button type="button" aria-pressed="true" data-layout="comfortable">Comfortable</button>
+        <button type="button" aria-pressed="false" data-layout="compact">Compact<kbd>⇧⌘D</kbd></button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section wrap">
+    <div class="split">
+      <div>
+        <h2>Every task. Its whole story.</h2>
+        <p class="intro">A task is often more than a one-liner. There’s a brief behind it, a plan, some research, a few notes about what happens next. In zdo, that thinking lives in Markdown documents linked right to the work.</p>
+        <ul class="notes-list">
+          <li><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 12a3 3 0 0 0 4 0l3-3a3 3 0 0 0-4-4l-1 1"/><path d="M12 8a3 3 0 0 0-4 0l-3 3a3 3 0 0 0 4 4l1-1"/></svg><span><strong>One note, many places.</strong> Link a document to a project, a task, or a subtask, and reach it from each of them.</span></li>
+          <li><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="14" height="12" rx="2"/><path d="M10 4v12"/></svg><span><strong>Write, split, or read.</strong> Plain Markdown with tables, checklists, diagrams, math, and code, rendered right next to your text.</span></li>
+          <li><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4H4v12h2M14 4h2v12h-2"/></svg><span><strong>[[Wiki links]] and attachments.</strong> Connect notes to each other and keep images and files with them.</span></li>
+        </ul>
+      </div>
+      <div class="pair" aria-hidden="true">
+        <div class="pair-task">
+          <span class="check"></span>
+          <div><div class="doing">Draft the announcement</div><div class="task-meta"><span>Oct 10</span><span class="tag">writing</span><span class="doc-chip"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 1.5h5l3 3v8H3z"/></svg>Launch brief</span></div></div>
+        </div>
+        <div class="pair-link">linked note</div>
+        <div class="pair-note">
+          <div class="note-head"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 1.5h5l3 3v8H3z"/><path d="M8 1.5v3h3"/></svg>Launch brief.md</div>
+          <h3>Launch brief</h3>
+          <p>Three screens, max. Lead with <em>why</em>, then show how it works.</p>
+          <ul class="md-checks">
+            <li class="on">Pick the hero screenshot</li>
+            <li class="on">Write the first draft</li>
+            <li>Send to Aino by Thursday</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section focus">
+    <div class="wrap split">
+      <div class="phone"><img src="assets/iphone-quick-lists.webp" width="600" height="1304" alt="zdo on iPhone showing Quick lists: a Packing list with one item, Keys, and a Discard list button." loading="lazy"></div>
+      <div>
+        <h2>Simple on purpose.</h2>
+        <p class="intro">zdo does a handful of things and stays out of your way. Projects for work that needs structure. Quick lists for the little things you just want out of your head: groceries, packing, errands. Check them off, then discard the list.</p>
+        <p class="left-out-label">Left out, deliberately:</p>
+        <ul class="left-out">
+          <li>Sign-ups</li>
+          <li>Team workspaces</li>
+          <li>AI features</li>
+          <li>Ads</li>
+          <li>Location reminders</li>
+          <li>Formatting toolbars</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section privacy" id="privacy">
+    <div class="wrap split">
+      <div>
+        <h2>No new account. No login. Nothing sent to us.</h2>
+        <p class="intro">There’s nothing to sign up for. Open zdo and start writing. Your workspace lives on your device. Want it on your iPhone too? Sync runs through your own private iCloud, so all you need is the iCloud account you already use on your Mac and iPhone.</p>
+        <ul class="no-list">
+          <li><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><circle cx="10" cy="7" r="3"/><path d="M4 17c1-3 3.5-4.5 6-4.5M3 3l14 14"/></svg><div><strong>No new account</strong><span>No zdo sign-up, email, or password. Use it on one device without any account.</span></div></li>
+          <li><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path d="M2 10s3-5.5 8-5.5S18 10 18 10s-3 5.5-8 5.5S2 10 2 10z"/><path d="M3 3l14 14"/></svg><div><strong>No tracking</strong><span>No analytics, no third-party SDKs, no usage telemetry, no ads.</span></div></li>
+          <li><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><rect x="3" y="3" width="14" height="5" rx="1.5"/><rect x="3" y="12" width="14" height="5" rx="1.5"/><path d="M2 2l16 16"/></svg><div><strong>No zdo servers</strong><span>Your workspace is never sent to us.</span></div></li>
+          <li><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path d="M6 15h8.5a3.5 3.5 0 0 0 .5-7 5 5 0 0 0-9.6 1A3 3 0 0 0 6 15z"/></svg><div><strong>Sync uses your iCloud</strong><span>To sync, sign in to iCloud with the same Apple Account on each device. Sync is optional.</span></div></li>
+          <li><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 3v10M6 9l4 4 4-4M4 17h12"/></svg><div><strong>Yours to take</strong><span>Export Markdown and PDF, and keep automatic backups where you choose.</span></div></li>
+          <li><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><rect x="2.5" y="4" width="15" height="12" rx="2"/><path d="M2.5 7.5h15"/></svg><div><strong>This site too</strong><span>No cookies, no analytics, no third-party fonts or scripts.</span></div></li>
+        </ul>
+        <p class="more"><a href="privacy.html">Read the privacy policy</a></p>
+      </div>
+
+      <svg class="flow" viewBox="0 0 520 380" role="img" aria-label="Diagram: your Mac and iPhone sync through your own private iCloud. There are no zdo servers in between.">
+        <rect class="absent" x="205" y="40" width="180" height="84" rx="12"/>
+        <text class="label absent-text" x="295" y="76" text-anchor="middle">zdo servers</text>
+        <text class="small absent-text" x="295" y="99" text-anchor="middle">None. Nothing to send.</text>
+
+        <path id="sync-wire" class="wire" d="M105 222 C105 290 130 305 175 305 L415 305 C440 305 435 290 435 222"/>
+
+        <rect class="device" x="20" y="54" width="170" height="112" rx="9"/>
+        <rect class="screen" x="30" y="64" width="40" height="92" rx="3"/>
+        <rect class="screen" x="78" y="70" width="100" height="12" rx="3"/>
+        <rect class="screen" x="78" y="88" width="100" height="12" rx="3"/>
+        <rect class="screen" x="78" y="106" width="70" height="12" rx="3"/>
+        <path class="device" d="M85 166h40l6 20H79z"/>
+        <text class="label" x="105" y="212" text-anchor="middle">Mac</text>
+
+        <rect class="device" x="402" y="40" width="66" height="134" rx="13"/>
+        <rect class="screen" x="411" y="60" width="48" height="10" rx="3"/>
+        <rect class="screen" x="411" y="76" width="48" height="10" rx="3"/>
+        <rect class="screen" x="411" y="92" width="34" height="10" rx="3"/>
+        <text class="label" x="435" y="212" text-anchor="middle">iPhone</text>
+
+        <circle class="packet" r="4"><animateMotion dur="4.5s" repeatCount="indefinite"><mpath href="#sync-wire"/></animateMotion></circle>
+        <circle class="packet" r="4"><animateMotion dur="4.5s" begin="-2.25s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1" calcMode="linear"><mpath href="#sync-wire"/></animateMotion></circle>
+
+        <rect class="cloud" x="165" y="272" width="260" height="66" rx="33" style="fill:#1b3152"/>
+        <text class="label" x="295" y="301" text-anchor="middle">Your private iCloud</text>
+        <text class="small" x="295" y="321" text-anchor="middle">optional, needs your Apple Account</text>
+      </svg>
+    </div>
+  </section>
+
+  <section class="section wrap" id="features">
+    <h2>Everything in its place.</h2>
+    <p class="intro">The essentials of a good task manager, done carefully, and nothing that gets in the way.</p>
+
+    <div class="capture-demo">
+      <div class="line" aria-label="Example quick capture: Review the draft tomorrow p1 @work #Launch every week">Review the draft <span class="tok">tomorrow</span> <span class="tok">p1</span> <span class="tok">@work</span> <span class="tok">#Launch</span> <span class="tok">every week</span></div>
+      <ul class="parsed">
+        <li><b>Date</b>Tomorrow</li>
+        <li><b>Priority</b>1</li>
+        <li><b>Tag</b>work</li>
+        <li><b>Project</b>Launch</li>
+        <li><b>Repeats</b>Every week</li>
+      </ul>
+      <p class="hint">Quick capture reads dates, priorities, tags, and projects as you type. Press ⌘K on the Mac. It understands Finnish too: huomenna, joka viikko.</p>
+    </div>
+
+    <div class="feature-grid">
+      <div><svg viewBox="0 0 26 26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="5.5" height="18" rx="1.5"/><rect x="10.25" y="4" width="5.5" height="12" rx="1.5"/><rect x="17.5" y="4" width="5.5" height="15" rx="1.5"/></svg><h3>List, board, or calendar</h3><p>Each project remembers its view. Drag tasks between sections and dates.</p></div>
+      <div><svg viewBox="0 0 26 26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="6" cy="6" r="2.5"/><circle cx="12" cy="13" r="2.5"/><circle cx="18" cy="20" r="2.5"/><path d="M6 8.5V13h3.5M12 15.5V20h3.5"/></svg><h3>Subtasks all the way down</h3><p>Break big work into pieces you can actually do, as deep as you need.</p></div>
+      <div><svg viewBox="0 0 26 26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><rect x="3.5" y="5" width="19" height="17" rx="2.5"/><path d="M3.5 10h19M8.5 3v4M17.5 3v4"/><path d="M9 16l3 2.5 5-5"/></svg><h3>Dates that fit real life</h3><p>Scheduled dates, separate deadlines, priorities, reminders, and repeating tasks.</p></div>
+      <div><svg viewBox="0 0 26 26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 3v13M8.5 7.5 13 3l4.5 4.5"/><path d="M8 11H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2h-2"/></svg><h3>Share into zdo</h3><p>Send links, text, and PDFs from other apps straight into a task or a note.</p></div>
+      <div><svg viewBox="0 0 26 26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><rect x="9.5" y="3" width="7" height="13" rx="3.5"/><path d="M5.5 12.5a7.5 7.5 0 0 0 15 0M13 20v3"/></svg><h3>Speak your thoughts</h3><p>Dictate tasks and notes with the built-in dictation on Mac and iPhone, or capture an idea with Siri.</p></div>
+      <div><svg viewBox="0 0 26 26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 13h12M12 9l4 4-4 4"/><path d="M10 5h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H10"/></svg><h3>Bring your Reminders</h3><p>Import lists from Apple Reminders after a quick review. The originals stay untouched.</p></div>
+      <div><svg viewBox="0 0 26 26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="11.5" cy="11.5" r="6.5"/><path d="m16.5 16.5 5.5 5.5"/></svg><h3>Search that finds things</h3><p>Search covers task descriptions and linked notes. Save any search as a filter.</p></div>
+      <div><svg viewBox="0 0 26 26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 13a8.5 8.5 0 1 0 2.5-6"/><path d="M4 4v4h4M13 8.5V13l3 2"/></svg><h3>Backups you control</h3><p>Automatic backups to a folder you choose, ready to restore on Mac or iPhone.</p></div>
+      <div><svg viewBox="0 0 26 26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="13" cy="13" r="9.5"/><path d="M3.5 13h19M13 3.5c3 3 3 16 0 19M13 3.5c-3 3-3 16 0 19"/></svg><h3>English and Finnish</h3><p>Use zdo in either language and switch any time in the app.</p></div>
+    </div>
+  </section>
+
+  <section class="section story">
+    <div class="wrap story-inner">
+      <h2>From A to Z. Then zdo.</h2>
+      <p>I tried all kinds of to-do and note-taking apps, from A to Z. None quite brought together the things I wanted. So I built zdo: z + do. Option Z.</p>
+      <p>I wanted the structure of a real project tool, the calm of a good notebook, and a place for the groceries that doesn’t pretend they’re a project. And I wanted it to be mine: on my devices, with no account and nobody watching.</p>
+    </div>
+  </section>
+
+  <section class="pro wrap">
+    <img src="assets/app-icon.png" alt="" width="96" height="96" loading="lazy">
+    <h2>zdo Pro</h2>
+    <p>Editing features use an Apple-managed subscription, and one subscription covers both Mac and iPhone. Available plans, local prices, and any eligible trial are shown in the app before purchase.</p>
+    <p>Your existing work remains readable and exportable after your subscription ends.</p>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <a class="brand" href="index.html" style="color:white"><img src="assets/app-icon.png" alt="" width="38" height="38">zdo</a>
+    <nav aria-label="Footer">
+      <a href="privacy.html">Privacy policy</a>
+      <a href="support.html">Support</a>
+      <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms of use</a>
+    </nav>
+    <p>© 2026 zdo</p>
+  </div>
+</footer>
+
+<script>
+  // Comfortable/compact toggle for the Mac screenshot
+  (function () {
+    var win = document.getElementById('mac-window');
+    var buttons = document.querySelectorAll('.segmented button');
+    buttons.forEach(function (b) {
+      b.addEventListener('click', function () {
+        win.dataset.layout = b.dataset.layout;
+        buttons.forEach(function (o) { o.setAttribute('aria-pressed', o === b ? 'true' : 'false'); });
+      });
+    });
+    // Stop the sync diagram for people who prefer reduced motion
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      document.querySelectorAll('.flow animateMotion').forEach(function (a) { a.remove(); });
+    }
+  })();
+</script>
 </body>
 </html>
